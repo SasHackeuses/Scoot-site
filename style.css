@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px ;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+  }
+  /* @keyframes updownn {
+    50% {
+      top: auto;
+      top: -3rem;
+    }
+  
+    /* 50%{ top: +3rem;top:auto;} */
+  /* }
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: updownn;
+  animation-name: updownn; */ 
+
+  
+  .gootin{
+ background-color: #f8c200;
+    margin: 0px 30px;
+    border: none;
+    border-radius:3px ;
+    width: 3cm;
+    padding: 10px 20px ;
+    color:white;
+    cursor: pointer;
+    }  
+   .backg1{
+    display: flex;
+    flex-direction:row;
+    background: url("./assets/images/home-hero-desktop.jpg") no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: left;
+    color: white;
+    font-family:cursive;
+    
+   }
+
+   .one{
+display:flex;
+flex-direction: row;
+padding-left: 20px 200px;
+}
+.two{
+    display: inline;
+   justify-content: flex-end; 
+    
+}
+.hayat{
+    padding: 100px 100px;
+}
+/* ***** Second *** */
+.second{
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  font-family:cursive;
+  padding-left: 50px ;
+  padding-top: 100px;
+}
+h2{
+  color: gray;
+}
+/* *** picone***** */
+.picone{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  
+}
+.right{
+  width: 100%;
+  border-radius: 50%;
+  
+}
+.left{
+  position: absolute;
+  bottom: -720px;
+  left: 530px;
+}
+.paragraph{
+  text-align: center;
+  padding: 50px 50px;
+  font-family: cursive;
+  color: gray;
+}
+button{
+  background-color: #f8c200;
+    margin: 0px 30px;
+    border: none;
+    width: 4cm;
+    padding: 10px 20px ;
+    color:white;
+    cursor: pointer;
+    font-family: cursive;
+}
+/* *****PICTWO **** */
+.pictwo{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.gauche{
+  width: 100%;
+  border-radius: 50%;
+}
+.droit{
+  position: absolute;
+  bottom: -1000px;
+}
+/* *****PICTHREE ****/
+.picthree{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.payments{
+  width: 100%;
+  border-radius: 50%;
+}
+.lastleft{
+  position: absolute;
+  bottom: -1600px;
+  left: 550px;
+}
+/* ****LAST **** */
+.last{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  background: url("pics/careers-locations-hero-tablet.jpg") no-repeat;
+  background-size: cover;
+  margin-top:100px;
+}
+
+.footer{
+  display:flex;
+  justify-content: space-between;
+  
+  font-family: cursive;
+}
+   .list{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px ;
+    overflow: hidden;
+    background-color: rgb(54, 54, 54);
+    padding-left: 10;
+   }
+   .a {
+    color: white;
+    padding: 10px 10px;
+    padding-top: 25px;
+   }
